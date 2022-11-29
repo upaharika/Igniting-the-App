@@ -1,0 +1,39 @@
+.container {
+  margin: 40px;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* width: auto; */
+}
+
+.logo {
+  height: 100px;
+  width: 30px;
+}
+
+.search {
+  position: relative;
+}
+
+.search > input {
+  width: 200px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #6f6d6d;
+  box-shadow: 2px 2px #888888;
+}
+
+.search span {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+}
+
+.user-icon > img {
+  height: 30px;
+  width: 30px;
+}
